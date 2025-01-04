@@ -1,0 +1,13 @@
+
+#title: B-scan from a metal cylinder buried in a dielectric half-space
+#domain: 1.00 0.35 0.002
+#dx_dy_dz: 0.002 0.002 0.002
+#time_window: 6e-9
+#material: 6 0.01 1 0 half_space
+#waveform: ricker 1 1.5e9 my_ricker
+#hertzian_dipole: z 0.260 0.25 0 my_ricker
+#rx: 0.3 0.25 0
+#src_steps: 0.002 0 0
+#rx_steps: 0.002 0 0
+#box: 0 0 0 1.00 0.25 0.002 half_space
+#cylinder: 0.50 0.144 0 0.50 0.144 0.002 0.003 pec
